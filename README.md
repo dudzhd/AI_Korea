@@ -1,1 +1,1 @@
-# AI_Korae
+# AI_Korea
