@@ -444,7 +444,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB300\uCDA9 \uC774\uB7F0 \uD615\uC2DD\uC73C\uB85C \uB300\uD654\uAC00
+  m_text: "\uB300\uAC15 \uC774\uB7F0 \uD615\uC2DD\uC73C\uB85C \uB300\uD654\uAC00
     \uC9C4\uD589\uB420 \uC608\uC815\uC785\uB2C8\uB2E4."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b7c30952c357c974cbcd8afa50c4d04b, type: 2}
@@ -736,8 +736,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -725, y: -180}
-  m_SizeDelta: {x: 350, y: 50}
+  m_AnchoredPosition: {x: -625, y: -180}
+  m_SizeDelta: {x: 550, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258937891
 MonoBehaviour:
@@ -759,7 +759,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC131\uC774\uB984"
+  m_text: "\uC774\uB984\uC774 \uC801\uD790 \uACF3\uC785\uB2C8\uB2E4"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b7c30952c357c974cbcd8afa50c4d04b, type: 2}
   m_sharedMaterial: {fileID: -6647056420874355243, guid: b7c30952c357c974cbcd8afa50c4d04b, type: 2}
