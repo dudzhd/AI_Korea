@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Scene.unity
     guid: 62dc8bcf62ec8d84e9c284e3ce89c4a9
+  - enabled: 1
+    path: Assets/Scenes/First MiniGame Scene.unity
+    guid: d4d7a1498c740e543af4f6b9ba4a96c0
+  - enabled: 1
+    path: Assets/Scenes/Second Main Scene.unity
+    guid: 7f40a92b3408fb0448a141966081caac
+  - enabled: 1
+    path: Assets/Scenes/Second MiniGame Scene.unity
+    guid: 923f3a82b47870841848b24ef9ada1a1
+  - enabled: 1
+    path: Assets/Scenes/Third Main Scene.unity
+    guid: 3d1c3a9abe709f44ebe656d237408a40
   m_configObjects: {}

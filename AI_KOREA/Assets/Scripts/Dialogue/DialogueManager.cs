@@ -9,6 +9,9 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
+    public Image backgroundImage;
+
+    private bool IsCoroutineDone = true;
 
     public Queue<string> sentences;
 
@@ -19,7 +22,12 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        nameText.text = dialogue.name; 
+        nameText.text = dialogue.name;
+
+        if (dialogue.BackgroundImage != null)
+        {
+            backgroundImage.sprite = dialogue.BackgroundImage;
+        }
 
         sentences.Clear();
 
@@ -33,20 +41,43 @@ public class DialogueManager : MonoBehaviour
     
     public void DisplayNextSentence()
     {
-        if (sentences.Count == 0) return;
+        if (sentences.Count == 0) 
+        { 
+            FindObjectOfType<DialogueTrigger>().NextDialogue();
 
-        string sentence = sentences.Dequeue(); 
-        StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
+            return;
+        }
+        
+        if (IsCoroutineDone == false)
+        {
+            StopAllCoroutines();
+            dialogueText.text = sentences.Dequeue();
+
+            IsCoroutineDone = true;
+        }
+        else
+        {   
+            string sentence = sentences.Peek();
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(sentence));
+        }
     }
 
-    IEnumerator TypeSentence(string sentences)
+    IEnumerator TypeSentence(string sentencesArray)
     {
+        IsCoroutineDone = false;
+
         dialogueText.text = "";
-        foreach (char letter in sentences.ToCharArray())
+        foreach (char letter in sentencesArray.ToCharArray())
         {
             dialogueText.text += letter;
+
+            yield return new WaitForSeconds(0.03f);
+
             yield return null;
         }
+
+        sentences.Dequeue();
+        IsCoroutineDone = true;
     }
 }

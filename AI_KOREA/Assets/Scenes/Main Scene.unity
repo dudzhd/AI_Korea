@@ -123,6 +123,140 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &132348351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 132348352}
+  - component: {fileID: 132348354}
+  - component: {fileID: 132348353}
+  m_Layer: 5
+  m_Name: Press Any Key
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &132348352
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132348351}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1097565414}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 685, y: -500}
+  m_SizeDelta: {x: 500, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &132348353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132348351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\uC544\uBB34 \uD0A4\uB098 \uB20C\uB7EC\uC11C \uB118\uAE30\uAE30 >"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: b7c30952c357c974cbcd8afa50c4d04b, type: 2}
+  m_sharedMaterial: {fileID: -6647056420874355243, guid: b7c30952c357c974cbcd8afa50c4d04b, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &132348354
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132348351}
+  m_CullTransparentMesh: 1
 --- !u!1 &174336358
 GameObject:
   m_ObjectHideFlags: 0
@@ -154,6 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 1258937891}
   dialogueText: {fileID: 963748592}
+  backgroundImage: {fileID: 525544217}
 --- !u!4 &174336360
 Transform:
   m_ObjectHideFlags: 0
@@ -163,12 +298,87 @@ Transform:
   m_GameObject: {fileID: 174336358}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1720.9773, y: 878.1483, z: -15.654217}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &295828591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 295828592}
+  - component: {fileID: 295828594}
+  - component: {fileID: 295828593}
+  m_Layer: 5
+  m_Name: Line
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &295828592
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295828591}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1097565414}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -212.5}
+  m_SizeDelta: {x: 1900, y: 2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &295828593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295828591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &295828594
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295828591}
+  m_CullTransparentMesh: 1
 --- !u!1 &525544215
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -366,12 +576,235 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: "\uC8FC\uC778\uACF5"
+  - name: 
     sentences:
-    - 11
-    - 22
-    - 33
-    - 44
+    - "(\uC5B4\uB290 \uB0A0 \uC544\uCE68)"
+    BackgroundImage: {fileID: 21300000, guid: 6acb862d3e47a864b8d2913161f1a5a7, type: 3}
+  - name: "\uB538"
+    sentences:
+    - "\uC544\uBE60! \uBE68\uB9AC \uAC00\uC790!!"
+    - "\uBE68\uB9AC \uBB3C\uB180\uC774 \uD558\uACE0 \uC2F6\uB2E8\uB9D0\uC57C!"
+    BackgroundImage: {fileID: 0}
+  - name: "\uC544\uB0B4"
+    sentences:
+    - "\uBC8C\uC368 \uB6F0\uC5B4\uB2E4\uB2C8\uBA74 \uBB3C\uB180\uC774 \uAC00\uC11C
+      \uB180 \uD798\uB3C4 \uC548\uB0A8\uC544 \uBC84\uB9B0\uB2E4~."
+    BackgroundImage: {fileID: 0}
+  - name: "\uB538"
+    sentences:
+    - "\uADF8\uAC74 \uC548\uB3FC!"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uADF8\uB7FC \uC9C0\uCCD0 \uC4F0\uB7EC\uC9C0\uAE30 \uC804\uC5D0 \uC5BC\uB978
+      \uAC00\uBCFC\uAE4C?"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB538"
+    sentences:
+    - "\uC88B\uC544! \uC88B\uC544!"
+    BackgroundImage: {fileID: 0}
+  - name: 
+    sentences:
+    - "(\uAC00\uC871 \uC5EC\uD589\uC744 \uB9C8\uCE58\uACE0 \uB3CC\uC544\uC624\uB294
+      \uAE38...)"
+    - "(\uCC28\uC120\uC774 \uBCF4\uC774\uC9C0 \uC54A\uC744 \uC815\uB3C4\uB85C \uBE44\uAC00
+      \uC3DF\uC544\uC9C4\uB2E4.)"
+    BackgroundImage: {fileID: 21300000, guid: 5e7535caad81e7c47a718a4a0b7be9a8, type: 3}
+  - name: "\uB098"
+    sentences:
+    - "\uAC11\uC790\uAE30 \uBE44\uAC00 \uC5C4\uCCAD \uC3DF\uC544\uC9C0\uB124..."
+    - "\uB2E4 \uB180\uACE0 \uC3DF\uC544\uC838\uC11C \uB2E4\uD589\uC774\uC57C."
+    BackgroundImage: {fileID: 0}
+  - name: "\uC544\uB0B4"
+    sentences:
+    - "\uADF8\uB7EC\uAC8C..."
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uC5EC\uBCF4\uB3C4 \uB538 \uB180\uC544\uC900\uB2E4\uACE0 \uACE0\uC0DD\uD588\uB294\uB370
+      \uC880 \uC26C\uACE0 \uC788\uC5B4."
+    - "\uB3C4\uCC29\uD558\uBA74 \uAE68\uC6CC\uC904\uAC8C."
+    BackgroundImage: {fileID: 0}
+  - name: "\uC544\uB0B4"
+    sentences:
+    - "\uACE0\uB9C8\uC6CC. \uADF8\uB7FC \uC870\uAE08\uB9CC \uB208 \uBD99\uC774\uACE0
+      \uC788\uC744\uAC8C."
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "(\uC800 \uCC28, \uBB54\uAC00 \uC774\uC0C1\uD55C\uB370...)"
+    BackgroundImage: {fileID: 21300000, guid: 72587f7b725057b40bfefcbececb8874, type: 3}
+  - name: "\uB098"
+    sentences:
+    - "\uC73C\uC545!!!"
+    BackgroundImage: {fileID: 21300000, guid: 620dcb2cc3b00964ca811eac9ca7b376, type: 3}
+  - name: 
+    sentences:
+    - "\uB07C\uC774\uC775!!!"
+    - "\uCF85!!!"
+    BackgroundImage: {fileID: 21300000, guid: 3872b0fcd61909d4f93132e94a7b10c7, type: 3}
+  - name: 
+    sentences:
+    - "(\uC815\uC2E0\uC774 \uD750\uB9BF\uD574\uC9C0\uBA70 \uBA40\uB9AC\uC11C \uB4E4\uB824\uC624\uB294
+      \uC0AC\uC774\uB80C \uC18C\uB9AC\uB97C \uB9C8\uC9C0\uB9C9\uC73C\uB85C \uC4F0\uB7EC\uC838\uBC84\uB9B0\uB2E4.)"
+    - "(\uBA70\uCE60 \uD6C4...)"
+    BackgroundImage: {fileID: 21300000, guid: 66716f39b5c8cf248a962631bf593cc2, type: 3}
+  - name: "\uB098"
+    sentences:
+    - "\uC73C\uC73D..."
+    - "(\uC5EC\uAE34 \uC5B4\uB514\uC9C0..?)"
+    - " (\uB9C8\uC9C0\uB9C9\uC5D0 \uAD6C\uAE09\uCC28 \uC18C\uB9AC\uB97C \uB4E3\uAE34
+      \uD588\uB358\uAC70 \uAC19\uC740\uB370...)"
+    - "(\uAC00\uC871\uB4E4\uC740 \uC5B4\uB5BB\uAC8C \uB41C\uAC70\uC9C0?)"
+    - "(\uCE58\uB8CC\uB294 \uB05D\uB09C\uAC74\uAC00?)"
+    - "\uC800\uAE30... \uB204\uAD6C \uC788\uC2B5\uB2C8\uAE4C?"
+    BackgroundImage: {fileID: 21300000, guid: 6cd0ef86b84a0554c85a22f67f16526e, type: 3}
+  - name: "\uAC04\uD638\uC0AC"
+    sentences:
+    - "\uC758\uC0AC \uC120\uC0DD\uB2D8! \uD658\uC790\uBD84\uC774 \uC815\uC2E0\uC744
+      \uCC28\uB9AC\uC2E0 \uAC83 \uAC19\uC2B5\uB2C8\uB2E4!"
+    BackgroundImage: {fileID: 0}
+  - name: 
+    sentences:
+    - "(\uC815\uC2E0\uC744 \uCC28\uB9AC\uACE0 \uC8FC\uBCC0\uC744 \uBCF4\uAE30\uC704\uD574
+      \uB208\uC744 \uB5A0\uBCF4\uC558\uC9C0\uB9CC \uC55E\uC774 \uBCF4\uC774\uC9C0
+      \uC54A\uB294\uB2E4.)"
+    BackgroundImage: {fileID: 0}
+  - name: "\uC758\uC0AC"
+    sentences:
+    - "\uD658\uC790\uBD84 \uC81C \uBAA9\uC18C\uB9AC\uAC00 \uC798 \uB4E4\uB9AC\uC2DC\uB098\uC694?"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uB124... \uC798 \uB4E4\uB9BD\uB2C8\uB2E4\uB9CC..."
+    BackgroundImage: {fileID: 0}
+  - name: "\uC758\uC0AC"
+    sentences:
+    - "\uC774\uBBF8 \uB208\uCE58\uCC44\uC168\uACA0\uC9C0\uB9CC, \uD658\uC790\uBD84\uC744
+      \uBC1C\uACAC\uD588\uC744 \uB2F9\uC2DC \uC548\uAD6C \uC190\uC0C1\uC774 \uC2EC\uD558\uAC8C
+      \uC9C4\uD589\uB418\uC5B4\uC11C \uCE58\uB8CC\uAC00 \uBD88\uAC00\uB2A5\uD560
+      \uC815\uB3C4\uC600\uC2B5\uB2C8\uB2E4."
+    - "\uB354 \uC815\uBC00\uD55C \uAC80\uC0AC\uAC00 \uD544\uC694\uD558\uC9C0\uB9CC,
+      \uD604\uC7AC\uB85C\uC11C\uB294 \uC2DC\uB825 \uD68C\uBCF5\uC774 \uBD88\uD655\uC2E4\uD569\uB2C8\uB2E4."
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uADF8\uB807\uAD70\uC694... \uC0C1\uD669\uC740 \uC774\uD574\uD588\uC2B5\uB2C8\uB2E4."
+    BackgroundImage: {fileID: 0}
+  - name: "\uC758\uC0AC"
+    sentences:
+    - "\uAC00\uC871\uB4E4\uC5D0\uAC8C \uC774\uBBF8 \uC124\uBA85\uC740 \uB9C8\uCE5C
+      \uC0C1\uD0DC\uC785\uB2C8\uB2E4 \uCD94\uAC00\uC801\uC73C\uB85C \uC0C1\uD669\uC744
+      \uC9C0\uCF1C\uBCF4\uBA74\uC11C \uCE58\uB8CC\uB97C \uC9C4\uD589\uD558\uACA0\uC2B5\uB2C8\uB2E4."
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "(\uBA87 \uC8FC \uD6C4.)"
+    - "(\uBCD1\uC6D0\uC5D0\uC11C \uCD5C\uB300\uD55C\uC758 \uCE58\uB8CC\uB97C \uD55C
+      \uD6C4 \uB098\uB294 \uD1F4\uC6D0\uC744 \uD558\uAE30\uB85C \uD588\uB2E4.)"
+    - "\uC9D1\uC5D0 \uC624\uB294\uB370 \uC774\uB807\uAC8C \uC624\uB798 \uAC78\uB9B4\uC904\uC740
+      \uBAB0\uB790\uB124."
+    BackgroundImage: {fileID: 0}
+  - name: "\uC544\uB0B4"
+    sentences:
+    - "\uADF8\uB798\uB3C4 \uBB34\uC0AC\uD788 \uB3CC\uC544\uC62C \uC218 \uC788\uC5B4\uC11C
+      \uB2E4\uD589\uC774\uC57C."
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uADF8\uB7EC\uAC8C."
+    BackgroundImage: {fileID: 0}
+  - name: "\uC544\uB0B4"
+    sentences:
+    - "\uC774\uC81C \uB9C9 \uD1F4\uC6D0\uD588\uC73C\uB2C8\uAE4C, \uC9D1\uC5D0\uC11C\uBD80\uD130
+      \uC870\uAE08\uC529 \uC801\uC751\uD574 \uB098\uAC00\uBA74 \uB420 \uAC83 \uAC19\uC544."
+    - "\uCC98\uC74C\uC5D4 \uB9CE\uC774 \uD798\uB4E4\uACA0\uC9C0\uB9CC, \uB0B4\uAC00
+      \uB3C4\uC640\uC904\uAC8C."
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uACE0\uB9C8\uC6CC, \uADF8\uB7F0 \uB9D0\uC744 \uB4E4\uC73C\uB2C8\uAE4C \uD6E8\uC52C
+      \uD798\uC774 \uB098\uB124."
+    BackgroundImage: {fileID: 0}
+  - name: "\uB538"
+    sentences:
+    - "\uB098\uB3C4 \uB3C4\uC640\uC904\uAC8C!"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uB4EC\uC9C1\uD55C \uC6B0\uB9AC \uB538\uC774 \uC544\uBE60 \uB9CE\uC774 \uB3C4\uC640\uC918?"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB538"
+    sentences:
+    - "\uC751! \uBB3C\uB860\uC774\uC9C0!"
+    BackgroundImage: {fileID: 0}
+  - name: "\uC544\uB0B4"
+    sentences:
+    - "\uC6B0\uC120 \uC77C\uC0C1\uC5D0\uC11C \uD544\uC694\uD55C \uAC83\uB4E4\uBD80\uD130
+      \uAC19\uC774 \uC2DC\uC791\uD574\uBCF4\uC790."
+    - "\uCC28\uADFC\uCC28\uADFC\uD574 \uB098\uAC00\uB2E4\uBCF4\uBA74 \uAE08\uBC29
+      \uC801\uC751\uD560 \uC218 \uC788\uC744\uAC70\uC57C."
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uC54C\uC558\uC5B4, \uB098\uB3C4 \uCD5C\uB300\uD55C \uB178\uB825\uD560\uAC8C"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB538"
+    sentences:
+    - "\uC544\uBE60, \uD654\uC774\uD305!"
+    BackgroundImage: {fileID: 0}
+  - name: 
+    sentences:
+    - "(\uADF8\uB807\uAC8C \uC7AC\uD65C\uC744 \uD574\uB098\uAC00\uBA70 \uBA87 \uB2EC\uC774
+      \uC9C0\uB0AC\uB2E4.)"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uC5EC\uBCF4, \uB538. \uC774\uC81C \uB098 \uD63C\uC790 \uC5F0\uC2B5\uD574\uBCF4\uACE0
+      \uC2F6\uC5B4."
+    BackgroundImage: {fileID: 0}
+  - name: "\uC544\uB0B4"
+    sentences:
+    - "\uBA87 \uB2EC \uB3D9\uC548 \uB9CE\uC774 \uC88B\uC544\uC9C0\uAE34 \uD588\uC9C0\uB9CC,
+      \uD63C\uC790\uC11C \uAD1C\uCC2E\uACA0\uC5B4?"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uADF8\uB3D9\uC548 \uC5EC\uBCF4\uB791 \uB538\uC774 \uB9CE\uC774 \uB3C4\uC640\uC92C\uC796\uC544."
+    - "\uADF8\uB798\uC11C \uC774\uC81C\uB294 \uC791\uC740 \uAC83\uBD80\uD130\uB77C\uB3C4
+      \uD63C\uC790 \uD574\uBCF4\uACE0 \uC2F6\uC5B4."
+    - "\uADF8\uB798\uC11C \uB0B4\uC77C \uD63C\uC790 \uC7A5\uC744 \uBCF4\uB7EC \uAC00\uBCFC\uAE4C
+      \uD558\uB294\uB370."
+    BackgroundImage: {fileID: 0}
+  - name: "\uC544\uB0B4"
+    sentences:
+    - "\uC54C\uACA0\uC5B4, \uC5EC\uBCF4\uAC00 \uADF8\uB807\uAC8C \uC0DD\uAC01\uD55C\uB2E4\uBA74
+      \uC6B0\uB9AC\uB3C4 \uBBFF\uC5B4\uC918\uC57C\uACA0\uC9C0."
+    - "\uADF8\uB7FC, \uB0B4\uC77C \uC7A5\uBCF4\uAE30\uB294 \uC5EC\uBCF4\uC5D0\uAC8C
+      \uB9E1\uAC08\uAC8C."
+    - "\uB300\uC2E0, \uBB34\uB9AC\uB294 \uC808\uB300 \uD558\uBA74 \uC548\uB41C\uB2E4?"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uAC71\uC815\uD558\uC9C0\uB9C8. \uADF8\uB3D9\uC548\uC758 \uD6C8\uB828\uC774
+      \uB3C4\uC6C0\uC774 \uB420\uAC70\uC57C."
+    - "\uBBFF\uC5B4\uC918\uC11C \uACE0\uB9C8\uC6CC."
+    BackgroundImage: {fileID: 0}
+  - name: 
+    sentences:
+    - "(\uB2E4\uC74C \uB0A0.)"
+    - "(\uB098\uAC08 \uC900\uBE44\uB97C \uD558\uACE0\uC788\uB2E4.)"
+    BackgroundImage: {fileID: 0}
+  - name: "\uB098"
+    sentences:
+    - "\uC774\uC81C \uD544\uC694\uD55C \uBBC8\uAC74\uB9CC \uCC59\uAE30\uBA74 \uB05D\uC778\uB370,
+      \uC9C0\uAC11\uC774\uB791 \uC2A4\uB9C8\uD2B8\uD3F0 \uADF8\uB9AC\uACE0 \uC9C0\uD321\uC774
+      \uC815\uB3C4\uB9CC \uCC59\uAE30\uBA74 \uB418\uACA0\uC9C0?"
+    - "\uBD84\uBA85 \uC774\uCABD\uCBE4\uC5D0 \uB194\uB46C \uB1A8\uB2E4\uACE0 \uD588\uB294\uB370..."
+    - "(\uBB3C\uAC74\uB4E4\uC744 \uB4A4\uC801\uC778\uB2E4.)"
+    - "\uC0DD\uAC01\uBCF4\uB2E4 \uADFC\uCC98\uC5D0 \uBB3C\uAC74\uC774 \uB9CE\uB124
+      \uC81C\uB300\uB85C \uCC3E\uC744 \uC218 \uC788\uC744\uAE4C?\r"
+    BackgroundImage: {fileID: 0}
 --- !u!4 &803745551
 Transform:
   m_ObjectHideFlags: 0
@@ -381,7 +814,7 @@ Transform:
   m_GameObject: {fileID: 803745549}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1720.9773, y: 878.1483, z: -15.654217}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -695,6 +1128,8 @@ RectTransform:
   - {fileID: 1033503214}
   - {fileID: 963748591}
   - {fileID: 1258937890}
+  - {fileID: 132348352}
+  - {fileID: 295828592}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -942,7 +1377,7 @@ Transform:
   m_GameObject: {fileID: 1394262859}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1720.9773, y: 878.1483, z: -15.654217}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
